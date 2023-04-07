@@ -1,7 +1,11 @@
 .App {
   text-align: center;
+  
+  color: white;
 }
-
+body {
+  background-color: black;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -27,12 +31,44 @@
 .App-link {
   color: #61dafb;
 }
+span {
+  font-weight: 900;
+}
+h3 {
+  color: teal;
+}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.NavContainer {
+  background-color: teal;
+  width: 100%;
+  height: 15%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.logoContainer {
+  height: 100%;
+  margin: 4px;
+}
+.logo {
+  height: 100%;
+}
+
+.tabsContainer {
+ width: 70%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.tab {
+  color: black;
+}
+.contactContainer {
+  color: black;
+  margin: 4px;
+}
+.socialMedia {
+  display: flex;
+  justify-content: space-around;
 }
