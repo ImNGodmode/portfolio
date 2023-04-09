@@ -1,8 +1,6 @@
 import React from 'react';
 import {Link, useNavigate} from 'react-router-dom';
 
-
-
 function Navbar() {
   
   const navigate =useNavigate();
@@ -19,15 +17,16 @@ function Navbar() {
       <Link to="/AboutMe" className='tab'>About Me</Link>
       <Link to="/Resume" className='tab'>Resume</Link>
       <Link to="/Projects" className='tab'>Projects</Link>
+      <Link to="/CodeBlog" className='tab'>Code Blog</Link>
       </div>
       <div className='contactContainer'>
         <div>Lets Connect!</div>
         <div className='contacts'>
           <div className='email'>Email: Blake.James.dev@gmail.com</div>
           <div className='socialMedia'>
-            <a href='https://www.linkedin.com/in/blakejames89'>Linkedin</a>
-            <a href='https://github.com/ImNGodmode'>Github</a>
-
+            <a href='https://www.linkedin.com/in/blakejames89' className='tab'>Linkedin</a>
+            <a href='https://github.com/ImNGodmode'className='tab'>Github</a>
+            <a href='https://leetcode.com/ImNGodmode/' className='tab'>LeetCode</a>
           </div>
         </div>
       </div>
