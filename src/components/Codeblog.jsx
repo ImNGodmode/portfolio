@@ -2,7 +2,9 @@ import React from 'react'
 
 function Codeblog() {
   return (
-    <div>Codeblog</div>
+    <div>
+        coming soon
+    </div>
   )
 }
 
