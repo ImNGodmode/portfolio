@@ -5,7 +5,7 @@ function Navbar() {
   
   const navigate =useNavigate();
   const goToLanding = (() => {
-    navigate('/');
+    navigate('/portfolio');
   });
 
   return (
