@@ -4,6 +4,7 @@ import React from 'react'
 function Resume() {
   return (
     <div>
+        <h1>Resume</h1>
         <div className='summaryContainer'>
             <h3>Summary</h3>
             <p>
