@@ -30,33 +30,38 @@ function Resume() {
         <div className='experienceContainer'>
             <h3>Experience</h3>
             <p><span>Wendy’s | Shift supervisor | Lexington, KY| May2018-October2019 June2021-Current-</span> <br/><br/>
-            ●	Delegate duties and supervise in their completion to ensure standards are met<br/>
-            ●	Exercise good problem-solving skills by identifying tasks to prioritize<br/>
-            ●	Utilizes technology to log inventory and manage end of day cash flow <br/>
-            ●	Design and adapt training programs to effectively teach new skills to employees<br/>
-            ●	Verify products to quickly and accurately deliver to customers<br/>
+            ●	Empowers and cultivates an efficient and meaningful work environment to provide accurate and timely customer service. <br/>
+            ●	Utilizes technology to log inventory and end-of-day cash flow for the organization. <br/>
+            ●	Manages team workflows and prioritizes tasks by needs to help the business run efficiently.<br/> 
+            ●	Helps onboard, design and adapt training for new employees to ensure employees are knowledgeable and supported in assigned tasks.<br/>
+            ●	Verify employee accuracy to ensure the product meets the organization’s standards.<br/>
+
             </p>
             <p><span>Kelly Services | Assembly worker |Georgetown, KY| October2019-May2021</span><br/><br/>
-            •	Effectively communicated within small teams to increase production speed, eliminate down time and reduce defected vehicles<br/>
-            ●	Operated machinery and power tools to assemble products (vehicles) with precision and speed<br/>
-            ●	Adapted to situation and challenges on the fly to correct errors and properly fit and install parts<br/>
+            ●	Worked in a small group to ensure production efficiency while ensuring the product met industry standards. <br/>
+            ●	Used multiple types of machinery to efficiently assemble products that meet business requirements. <br/>
+            ●	Adapted to challenges and ensured products were assembled for safe customer use. <br/>
+
             </p>
             <p><span>Horseshoe Southern Indiana Casino | Supervisor/ Table Games Dealer |Elizabeth, IN |June 2017- September 2017-</span><br/><br/>
-            ●	Managed and tracked bankrolls for multiple tables and patrons at once<br/>
-            ●	Practiced conflict management and mediation skills to correct deviations from standard practice<br/> 
-            ●	Clearly communicated with patrons to advise on best practices on course of play<br/>
-            ●	Utilized time management skills and identification of personnel strengths to best place myself to reduce losses and improve productivity
+            ●	Successfully managed and tracked multiple tables and bankrolls for the organization. <br/>
+            ●	Practiced conflict management, mediation techniques, and professionalism to communicate with patrons, staff, and peers. <br/>
+            ●	Used knowledge of best practices to ensure customers understood the services provided. <br/>
+            ●	Utilized knowledge of the organization and related industry to provide excellent customer service.<br/> 
+
             </p>
             <p><span>Lady Luck Casino| Table Games Dealer | Farmington PA | May 2015- April 2017</span><br/><br/>
-            ●	Demonstrated showmanship and poise in public situations hosting patrons applying humor and positive engagement speaking comfortably to groups to build rapport<br/>
-            ●	Effectively communicated state and casino rules and regulations to patrons with clarity<br/>
-            ●	Practiced hand dexterity and rapid mental math computation skills to increase productivity<br/>
+            ●	Built customer rapport through multiple forms of public speaking in large and small groups.  <br/>
+            ●	Communicated all state and organization rules and regulations to patrons to ensure legal and safe processes. <br/>
+            ●	Effectively used rapid mental math computation skills to increase productivity and ensured little to no downtime. <br/>
+
             </p>
             <p><span>Sheetz | Shift Supervisor | Morgantown, WV | June2012-December2013</span><br/><br/>
-            ●	Used interpersonal skills to resolve conflicts, relate to customers, and improve customer service<br/>
-            ●	Assessed situations to identify bottlenecks in real time and support those areas to improve productivity<br/>
-            ●	Communicated easily with different personalities to cooperate on projects and build rapport <br/>
-            ●	Motivated and helped guide employees in the completion of tasks and fulfillment of company goals<br/>
+            ●	Practiced interpersonal skills to improve the customer experience. <br/>
+            ●	Improved productivity by assessing different situations and providing support where needed.<br/>
+            ●	Built a rapport to ensure a healthy work environment. <br/>
+            ●	Created a welcoming and supportive environment for employees to increase productivity and quality of employee wellness. <br/>
+
             </p>
         </div>
 
