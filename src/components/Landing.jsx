@@ -20,7 +20,7 @@ function Landing() {
   return (
     <div className='landing'>
       <div className='aboutMeContainer'onClick={goToAboutMe} >
-        <img className='landingImg' alt=''  src='https://media.licdn.com/dms/image/D4E03AQFZpLsWcsPsww/profile-displayphoto-shrink_100_100/0/1670349694377?e=1686182400&v=beta&t=OhDDgpufIJy0CT9wZDBlwOH7nMXSkHwd-MNaEDBVXaY'/>
+        <img className='landingImg' alt=''  src='https://media.licdn.com/dms/image/D4E03AQFZpLsWcsPsww/profile-displayphoto-shrink_100_100/0/1670349694377?e=1693440000&v=beta&t=xwtpL7WX7RYoWRPJKqgvqZvjiPuLGk1We_JzANC6KFc'/>
           <div className='titleContainer'>
           About Me
         </div>

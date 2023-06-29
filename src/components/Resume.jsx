@@ -15,7 +15,7 @@ function Resume() {
             <h3>Technical Skills</h3>
             <p>Operating Systems: Windows: XP, 10, 11<br/>
             Programming languages: HTML5, CSS3, Java Script	<br/>		           	          
-            Software Applications: Microsoft Office, Github, Visual Studio Code, Node.js, React, Express, Mongo DB, Mongoose
+            Software Applications: Microsoft Office, Github, Visual Studio Code, Node.js, React, Express, Mongo DB, Mongoose, Bootstrap
             </p>
         </div>
         <div className='educationContainer'>
