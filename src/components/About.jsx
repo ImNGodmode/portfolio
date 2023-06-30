@@ -3,7 +3,7 @@ import React from 'react'
 
 function Info() {
   return (
-    <div>
+    <div className='content'>
       <div className='introContainer'>
         <img src='https://media.licdn.com/dms/image/D4E03AQFZpLsWcsPsww/profile-displayphoto-shrink_100_100/0/1670349694377?e=1693440000&v=beta&t=xwtpL7WX7RYoWRPJKqgvqZvjiPuLGk1We_JzANC6KFc' alt='' />
         <h1>About Me</h1>

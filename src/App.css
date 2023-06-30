@@ -42,11 +42,17 @@ h1 {
 }
 
 .NavContainer {
+  position: fixed;
+  top: 1%;
   background-color: teal;
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 10vh;
+  width: 98vw;
+}
+.content {
+  margin-top: 12vh;
 }
 .logoContainer {
   height: 100%;
@@ -79,6 +85,7 @@ h1 {
   flex-wrap: wrap;
   justify-content: space-around;
   height: 100%;
+  margin-top: 12vh;
 }
 .aboutMeContainer{
   width: 45%;
@@ -106,5 +113,51 @@ h1 {
   height: 75px;
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
+}
+.resumeBox {
+  background-color: rgb(1, 57, 57);
+  margin: 2.5%;
+  border-radius: 5%;
+  padding: 2.5%;
+}
+.featureContainer {
+  /* border: solid red 2px; */
+  background-color: rgb(1, 57, 57);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 1%;
+  margin: 2vw;
+}
+.projects {
+  background-color: #282c34;
+  border-radius: 1%;
+}
+.projectsBox {
+  /* border: solid white 2px; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  
+  padding: 1%;
+  
+}
+.projectBox {
+  /* border: solid blue 1px; */
+  width: 20vw;
+  background-color: black;
+  border-radius: 10%;
+  transition: transform 0.5s ease;
+}
+.projectBox:hover {
+  transform: scale(1.075);
+
+}
+.projectPic {
+  width: 20vw;
+}
+.buttonBox {
+  display: flex;
   justify-content: space-around;
 }
