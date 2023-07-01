@@ -5,9 +5,14 @@ function Projects() {
   return (
     <div className='content'>
       <div className='currentProjectContainer'>
-        <h3>Current Project</h3>
-        <p>Check out what I am currently working on! (right now your looking at it)</p>
-
+        
+          <h3>Current Project</h3>
+          <p>Check out what I am currently working on!</p>
+        <div className='currentProjectBox'>
+          <h4>Schedule optimizer</h4>
+          {/* <img src={process.env.PUBLIC_URL + '/ZombieAimTrainer.png'} alt="" className='projectPic'/> */}
+          <p>This project is in planning phase. The goal is to create an application to help with time management. Each user once logged in will be able to access thier calendar and add events. Events will be able to have estimated completion time, start time, importance, and deadline. As events are added to the users calendar if the event has a start time (like an appointment) it will be added to the calendar. If the event doesn't have a designated start time it will be plugged into the calendar depending on importance, deadline, and estimated completion time. Events will be able to be marked at complete, updated, or deleted.    </p>
+        </div>
       </div>
       <div className='featureContainer'>
         <h3>Featured Projects</h3>  
@@ -25,7 +30,7 @@ function Projects() {
           <div className='projectBox'>
             <h5>MOB Gaming</h5>
             <img src={process.env.PUBLIC_URL + '/landing.png'} alt='' className='projectPic'/>
-            <p>This was the last group project before the final for my bootcamp. The highlights for this project are the use of user authentication, bootstrap, and a videogame api to memic an ecommerce page selling video games. 
+            <p>This was the last group project before the final for my bootcamp. The highlights for this project are the use of user authentication, bootstrap, and a videogame api to memic an ecommerce page selling video games. It is a full stack program built with the MERN stack. 
             </p>
             <div className='buttonBox'>
               <div className='moreInfo'>More info</div>
@@ -33,21 +38,25 @@ function Projects() {
             </div>
           </div>
           <div className='projectBox'>
+            <h5>Fitness Coaching App</h5>
+            <img src={process.env.PUBLIC_URL + '/info.png'} alt='' className='projectPic'/>
+            <p>This was the final project I created through the Per Scholas bootcamp. It is a full-stack program built with the MERN stack. The focus for this project was creation and utalization of CRUD (Create, Read, Update, and Delete) routes in a full stack application. It is a platform for personal training that allows a trainer to update macros and workouts for all of thier trainees. Each trainee can also log in to see thier workout and macro plan and update thier own plan.
+            </p>
+            <div className='buttonBox'>
+              <div className='moreInfo'>More info</div>
+              <div className='github'><a href='https://github.com/blakejamesdev/fitnessCoaching' target="_blank" rel='noreferrer'>Github</a></div>
+            </div>
+          </div>
+          {/* <div className='projectBox'>
             <h5>name</h5>
             <img src='#' alt=''className='projectPic'/>
             <p>short discription
             </p>
-          </div>
-          <div className='projectBox'>
-            <h5>name</h5>
-            <img src='#' alt=''className='projectPic'/>
-            <p>short discription
-            </p>
-          </div>
-        </div>
+          </div>*/}
+        </div> 
 
       </div>
-      <div className='projects'>
+      {/* <div className='projects'>
         <h3>All Projects</h3>
         <div className='projectsBox'>
           <div className='projectBox'>
@@ -61,10 +70,14 @@ function Projects() {
             </div>
           </div>
           <div className='projectBox'>
-            <h5>name</h5>
-            <img src='#' alt=''className='projectPic'/>
-            <p>short discription
+            <h5>Blackjack</h5>
+            <img src={process.env.PUBLIC_URL + '/Blackjack.png'} alt='' className='projectPic'/>
+            <p>A one player blackjack game built with HTML, CSS, and JavaScript. 
             </p>
+            <div className='buttonBox'>
+              <div className='moreInfo'>More info</div>
+              <div className='github'><a href='https://github.com/blakejamesdev/Homework/tree/main/blackJack' target="_blank" rel='noreferrer'>Github</a></div>
+            </div>
           </div>
           <div className='projectBox'>
             <h5>name</h5>
@@ -77,9 +90,9 @@ function Projects() {
             <img src='#' alt=''className='projectPic'/>
             <p>short discription
             </p>
-          </div>
-        </div>
-      </div>  
+          </div> 
+        </div> 
+      </div>  */}
     </div>
   )
 }
