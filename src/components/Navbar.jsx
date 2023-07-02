@@ -11,7 +11,7 @@ function Navbar() {
   return (
     <div className='NavContainer'>
       <div className='logoContainer'>
-        <img src='https://media.licdn.com/dms/image/D4E03AQFZpLsWcsPsww/profile-displayphoto-shrink_100_100/0/1670349694377?e=1693440000&v=beta&t=xwtpL7WX7RYoWRPJKqgvqZvjiPuLGk1We_JzANC6KFc' alt='' className='logo' onClick={goToLanding} />
+        <img src={process.env.PUBLIC_URL + '/headshotEdit.png'} alt=''  className= 'logo' onClick={goToLanding}/>
       </div>
       <div className='tabsContainer'>
       <Link to="/AboutMe" className='tab'>About Me</Link>

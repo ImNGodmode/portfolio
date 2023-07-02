@@ -87,24 +87,21 @@ h1 {
   height: 100%;
   margin-top: 12vh;
 }
-.aboutMeContainer{
-  width: 45%;
+.landingContainer{
+  background-color: rgb(1, 57, 57);
+  border-radius: 15%;
   height: 40vh;
+  width: 30vw;
+  padding: 2%;
+  margin: 1%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
 }
-.resumeContainer{
-  width: 45%;
-  height: 40vh;
-}
-.projectsContainer{
-  width: 45%;
-  height: 40vh;
-}
-.codeBlogContainer{
-  width: 45%;
-  height: 40vh;
-}
+
 .landingImg{
   height: 35vh;
+
 }
 .footer {
   height: 10vh;
@@ -175,9 +172,12 @@ h1 {
 
 }
 .about {
-  background-color: #282c34;
-  margin: 5%;
+  background-color: rgb(1, 57, 57);
+  margin: 10%;
   margin-top: 10%;
-  border-radius: 5%;
+  border-radius: 10%;
   padding: 5%;
+}
+.techPic {
+  height: 10vh;
 }
