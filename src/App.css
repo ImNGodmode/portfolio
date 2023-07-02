@@ -117,7 +117,7 @@ h1 {
 }
 .resumeBox {
   background-color: rgb(1, 57, 57);
-  margin: 2.5%;
+  margin: 10%;
   border-radius: 5%;
   padding: 2.5%;
 }
@@ -173,4 +173,11 @@ h1 {
   flex-direction: column;
   align-items: center;
 
+}
+.about {
+  background-color: #282c34;
+  margin: 5%;
+  margin-top: 10%;
+  border-radius: 5%;
+  padding: 5%;
 }
