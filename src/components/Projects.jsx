@@ -1,4 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+
 
 
 function Projects() {
@@ -23,7 +25,7 @@ function Projects() {
             <p>This was one of my first solo projects while I was going through bootcamp. It is a very simple game with a static character in the middle of the screen. Zombies spawn randomly at 8 predetermined locations around the screen and move toward the character. You must shoot (click on) the zombie to kill it before it reaches the character in the middle of the screen. While it is basic, and my skills have far surpassed what is shown here, it is still one of my favorite projects. At the time I created this I had only been coding for 4 weeks, and had only worked with html, css, and JavaScript. 
             </p>
             <div className='buttonBox'>
-              <div className='moreInfo'>More info</div>
+            <Link to="/Featureproject1" >More Info</Link>
               <div className='github'><a href='https://github.com/blakejamesdev/Mod1Project' target="_blank" rel='noreferrer'>Github</a></div>
             </div>
           </div>
@@ -33,7 +35,7 @@ function Projects() {
             <p>This was the last group project before the final for my bootcamp. The highlights for this project are the use of user authentication, bootstrap, and a videogame api to memic an ecommerce page selling video games. It is a full stack program built with the MERN stack. 
             </p>
             <div className='buttonBox'>
-              <div className='moreInfo'>More info</div>
+            <Link to="/Featureproject2" >More Info</Link>
               <div className='github'><a href='https://github.com/blakejamesdev/MOBGaming' target="_blank" rel='noreferrer'>Github</a></div>
             </div>
           </div>
@@ -43,7 +45,7 @@ function Projects() {
             <p>This was the final project I created through the Per Scholas bootcamp. It is a full-stack program built with the MERN stack. The focus for this project was creation and utalization of CRUD (Create, Read, Update, and Delete) routes in a full stack application. It is a platform for personal training that allows a trainer to update macros and workouts for all of thier trainees. Each trainee can also log in to see thier workout and macro plan and update thier own plan.
             </p>
             <div className='buttonBox'>
-              <div className='moreInfo'>More info</div>
+            <Link to="/Featureproject3" >More Info</Link>
               <div className='github'><a href='https://github.com/blakejamesdev/fitnessCoaching' target="_blank" rel='noreferrer'>Github</a></div>
             </div>
           </div>

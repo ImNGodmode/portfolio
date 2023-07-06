@@ -17,7 +17,7 @@ function Navbar() {
       <Link to="/AboutMe" className='tab'>About Me</Link>
       <Link to="/Resume" className='tab'>Resume</Link>
       <Link to="/Projects" className='tab'>Projects</Link>
-      <Link to="/CodeBlog" className='tab'>Code Blog</Link>
+      <Link to="/CodeProblems" className='tab'>Code Problems</Link>
       </div>
       <div className='contactContainer'>
         <div>Lets Connect!</div>

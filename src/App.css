@@ -53,6 +53,7 @@ h1 {
 }
 .content {
   margin-top: 12vh;
+  
 }
 .logoContainer {
   height: 100%;
@@ -174,10 +175,22 @@ h1 {
 .about {
   background-color: rgb(1, 57, 57);
   margin: 10%;
-  margin-top: 10%;
   border-radius: 10%;
   padding: 5%;
 }
 .techPic {
   height: 10vh;
+}
+.featureProject1Container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.descriptionBox {
+  background-color: #282c34;
+  width: 40vw;
+  display: flex;
+  margin: 1%;
+  padding: 3%;
+  border-radius: 30%;
 }
