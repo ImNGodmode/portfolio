@@ -19,7 +19,7 @@ function Projects() {
       <div className='featureContainer'>
         <h3>Featured Projects</h3>  
         <div className='projectsBox'>
-          <div className='projectBox'>
+          {/* <div className='projectBox'>
             <h4>Zombie Survival Aim Trainer</h4>
             <img src={process.env.PUBLIC_URL + '/ZombieAimTrainer.png'} alt="" className='projectPic'/>
             <p>This was one of my first solo projects while I was going through bootcamp. It is a very simple game with a static character in the middle of the screen. Zombies spawn randomly at 8 predetermined locations around the screen and move toward the character. You must shoot (click on) the zombie to kill it before it reaches the character in the middle of the screen. While it is basic, and my skills have far surpassed what is shown here, it is still one of my favorite projects. At the time I created this I had only been coding for 4 weeks, and had only worked with html, css, and JavaScript. 
@@ -28,7 +28,7 @@ function Projects() {
             <Link to="/Featureproject1" >More Info</Link>
               <div className='github'><a href='https://github.com/blakejamesdev/Mod1Project' target="_blank" rel='noreferrer'>Github</a></div>
             </div>
-          </div>
+          </div> */}
           <div className='projectBox'>
             <h5>MOB Gaming</h5>
             <img src={process.env.PUBLIC_URL + '/landing.png'} alt='' className='projectPic'/>
