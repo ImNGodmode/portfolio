@@ -154,6 +154,7 @@ h1 {
 }
 .projectPic {
   width: 20vw;
+  margin: 1%;
 }
 .buttonBox {
   display: flex;
@@ -188,9 +189,15 @@ h1 {
 }
 .descriptionBox {
   background-color: #282c34;
-  width: 40vw;
+  width: 60vw;
   display: flex;
+  flex-wrap: wrap;
   margin: 1%;
-  padding: 3%;
+  padding: 5%;
   border-radius: 30%;
+  justify-content: center;
+}
+.projectLinks {
+  display: flex;
+  flex-direction: column;
 }
