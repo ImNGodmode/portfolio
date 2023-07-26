@@ -32,7 +32,7 @@ function Projects() {
           <div className='projectBox'>
             <h5>MOB Gaming</h5>
             <img src={process.env.PUBLIC_URL + '/landing.png'} alt='' className='projectPic'/>
-            <p>This was the last group project before the final for my bootcamp. The highlights for this project are the use of user authentication, bootstrap, and a videogame api to memic an ecommerce page selling video games. It is a full stack program built with the MERN stack. 
+            <p> The highlights for this project are the use of user authentication, bootstrap, and a videogame api to memic an ecommerce page selling video games. It is a full stack program built with the MERN stack. 
             </p>
             <div className='buttonBox'>
             <Link to="/Featureproject2" >More Info</Link>
@@ -42,7 +42,7 @@ function Projects() {
           <div className='projectBox'>
             <h5>Fitness Coaching App</h5>
             <img src={process.env.PUBLIC_URL + '/info.png'} alt='' className='projectPic'/>
-            <p>This was the final project I created through the Per Scholas bootcamp. It is a full-stack program built with the MERN stack. The focus for this project was creation and utalization of CRUD (Create, Read, Update, and Delete) routes in a full stack application. It is a platform for personal training that allows a trainer to update macros and workouts for all of thier trainees. Each trainee can also log in to see thier workout and macro plan and update thier own plan.
+            <p>This is a full-stack program built with the MERN stack. The focus for this project was creation and utalization of CRUD (Create, Read, Update, and Delete) routes in a full stack application. It is a platform for personal training that allows a trainer to update macros and workouts for all of thier trainees. Each trainee can also log in to see thier workout and macro plan and update thier own plan.
             </p>
             <div className='buttonBox'>
             <Link to="/Featureproject3" >More Info</Link>

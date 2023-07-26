@@ -201,3 +201,34 @@ h1 {
   display: flex;
   flex-direction: column;
 }
+.codeProblemsBox {
+  display: flex;
+  flex-direction: row;
+}
+.listBox {
+  border: solid turquoise 2px;
+  background-color: #282c34;
+  margin: 1%;
+}
+.gameBox {
+  border: solid turquoise 2px;
+  color: turquoise;
+  margin: 1%;
+}
+.challenge{
+  color: white;
+}
+.displayBox{
+  border: solid turquoise 2px;
+  margin: 1%;
+  width: 83vw;
+  height: 75vh;
+}
+.variableBox{
+  display: flex;
+  justify-content: space-around;
+}
+.array{
+  display: flex;
+  justify-content: center;
+}
