@@ -14,10 +14,15 @@ function Navbar() {
         <img src={process.env.PUBLIC_URL + '/headshotEdit.png'} alt=''  className= 'logo' onClick={goToLanding}/>
       </div>
       <div className='tabsContainer'>
-      <Link to="/AboutMe" className='tab'>About Me</Link>
-      <Link to="/Resume" className='tab'>Resume</Link>
-      <Link to="/Projects" className='tab'>Projects</Link>
-      <Link to="/CodeProblems" className='tab'>Code Problems</Link>
+        <div className='dropdown'>
+          <button className='dropbtn'>MENU</button>
+          <div className='dropContent'>
+          <Link to="/AboutMe" className='tab'>About Me</Link>
+          <Link to="/Resume" className='tab'>Resume</Link>
+          <Link to="/Projects" className='tab'>Projects</Link>
+          <Link to="/CodeProblems" className='tab'>Code Problems</Link>
+          </div>
+        </div>
       </div>
       <div className='contactContainer'>
         <div>Lets Connect!</div>
