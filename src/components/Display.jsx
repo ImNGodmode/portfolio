@@ -6,7 +6,9 @@ function Display({challenge}) {
     const [y, sety] = useState('');
     const [z, setz] = useState('');
     const [arrayValue, setArrayValue] = useState('')
-    const [array, setarray] = useState([]);
+    const [array, setArray] = useState([]);
+    const [arrayValue2, setArrayValue2]= useState('')
+    const [array2, setArray2] = useState([])
 
     const handleXChange = ((event) => {
         setx([event.target.value])
@@ -22,14 +24,25 @@ function Display({challenge}) {
     })
     const handleArrayChange = (() => {
        if (arrayValue !== "") {
-           setarray((currentArray) => [...currentArray, arrayValue]) 
+           setArray((currentArray) => [...currentArray, arrayValue]) 
            setArrayValue('')
-           console.log(array)
         }
     })
    const clearArray = (() => {
-    setarray([])
+    setArray([])
    })
+   const handleArrayValueChange2 = ((event) => {
+    setArrayValue2([event.target.value])
+})
+const handleArrayChange2 = (() => {
+   if (arrayValue !== "") {
+       setArray2((currentArray) => [...currentArray, arrayValue2]) 
+       setArrayValue2('')
+    }
+})
+const clearArray2 = (() => {
+setArray2([])
+})
 
   return (
     <div>
@@ -47,10 +60,16 @@ function Display({challenge}) {
             
                 </div>
                 <div className="array">
-                    Value for array:<input type='number' name='array' onChange={handleArrayValueChange}></input>
+                    Value for array 1:<input type='number' name='array' onChange={handleArrayValueChange}></input>
                     <button type='button' onClick={handleArrayChange}>Add to array</button>
                     <button type='button' onClick={clearArray}>Clear the array</button>
                     <div>({JSON.stringify(array).replace(/[^0-9,]/gi,'')}) </div>
+                </div>
+                <div className="array">
+                    Value for array 2:<input type='number' name='array2' onChange={handleArrayValueChange2}></input>
+                    <button type='button' onClick={handleArrayChange2}>Add to array</button>
+                    <button type='button' onClick={clearArray2}>Clear the array</button>
+                    <div>({JSON.stringify(array2).replace(/[^0-9,]/gi,'')}) </div>
                 </div>
 
             
