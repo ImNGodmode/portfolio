@@ -278,10 +278,10 @@ h1 {
     top: 1%;
     background-color: teal;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     height: 10vh;
     width: 98vw;
+    justify-content: space-around;
   }
   .content {
     margin-top: 12vh;
@@ -294,14 +294,11 @@ h1 {
   .logo {
     height: 100%;
   }
- 
- .tabsContainer {
+ .NavItems {
   display: flex;
-}
+    
+ }
 
-.dropdown {
-  position: relative;
-}
 
 .dropbtn {
   background-color: black;
@@ -316,13 +313,13 @@ h1 {
   
 }
 
-
 .dropContent {
-  display: none;
+  display: block;
   position: absolute;
   background-color: teal;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  margin-right: 50px;
 }
 
 .dropContent a {
@@ -339,6 +336,7 @@ h1 {
 .dropdown:hover .dropContent {
   display: block;
 }
+
 .landing{
   display: flex;
   flex-direction: row;

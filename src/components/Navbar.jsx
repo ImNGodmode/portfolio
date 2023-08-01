@@ -13,29 +13,32 @@ function Navbar() {
       <div className='logoContainer'>
         <img src={process.env.PUBLIC_URL + '/headshotEdit.png'} alt=''  className= 'logo' onClick={goToLanding}/>
       </div>
-      <div className='tabsContainer'>
-        <div className='dropdown'>
-          <button className='dropbtn'>MENU</button>
-          <div className='dropContent'>
-          <Link to="/AboutMe" className='tab'>About Me</Link>
-          <Link to="/Resume" className='tab'>Resume</Link>
-          <Link to="/Projects" className='tab'>Projects</Link>
-          <Link to="/CodeProblems" className='tab'>Code Problems</Link>
+      
+        
+          <div className='dropdown'>
+            <button className='dropbtn'>MENU</button>
+            <div className='dropContent'>
+              <Link to="/AboutMe" className='tab'>About Me</Link>
+              <Link to="/Resume" className='tab'>Resume</Link>
+              <Link to="/Projects" className='tab'>Projects</Link>
+              <Link to="/CodeProblems" className='tab'>Code Problems</Link>
+            </div>
           </div>
+        
+        
+          <div className='dropdown'>
+            <button className='dropbtn'>Lets Connect!</button>
+            <div className='dropContent'>
+                <a href='mailto:blake.james.dev@gmail.com' className='tab' target='_blank' rel='noreferrer'>Email</a>
+                <a href='https://www.linkedin.com/in/blakejames89' className='tab' target="_blank" rel='noreferrer'>Linkedin</a>
+                <a href='https://github.com/blakejamesdev'className='tab' target="_blank" rel='noreferrer'>Github</a>
+                <a href='https://leetcode.com/ImNGodmode/' className='tab' target="_blank" rel='noreferrer'>LeetCode</a>
+              </div>
+            </div>
+          
         </div>
-      </div>
-      <div className='contactContainer'>
-        <div>Lets Connect!</div>
-        <div className='contacts'>
-          <div className='email'>Email: Blake.James.dev@gmail.com</div>
-          <div className='socialMedia'>
-            <a href='https://www.linkedin.com/in/blakejames89' className='tab' target="_blank" rel='noreferrer'>Linkedin</a>
-            <a href='https://github.com/blakejamesdev'className='tab' target="_blank" rel='noreferrer'>Github</a>
-            <a href='https://leetcode.com/ImNGodmode/' className='tab' target="_blank" rel='noreferrer'>LeetCode</a>
-          </div>
-        </div>
-      </div>
-    </div>
+      
+   
   )
 }
 
