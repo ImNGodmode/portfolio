@@ -21,7 +21,7 @@ function Navbar() {
               <Link to="/AboutMe" className='tab'>About Me</Link>
               <Link to="/Resume" className='tab'>Resume</Link>
               <Link to="/Projects" className='tab'>Projects</Link>
-              <Link to="/CodeProblems" className='tab'>Code Problems</Link>
+              <Link to="/CodeProblems" className='tab'>Code Problems <br/> (under construction)</Link>
             </div>
           </div>
         

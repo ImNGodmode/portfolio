@@ -15,7 +15,7 @@ function Featureproject2() {
               </p>
               <div className='projectLinks'>
                 <div className='github'>To see the code on github click <a href='https://github.com/blakejamesdev/MOBGaming' target="_blank" rel='noreferrer'>here!</a></div>
-                <div className='github'>To go to a live version of the project click<a href='https://github.com/blakejamesdev/MOBGaming' target="_blank" rel='noreferrer'>here!</a>(this project is currently not being hosted)</div>
+                <div className='github'>To go to a live version of the project click <a href='https://github.com/blakejamesdev/MOBGaming' target="_blank" rel='noreferrer'>here!</a>(this project is currently not being hosted)</div>
               </div>
             </div>
         </div>

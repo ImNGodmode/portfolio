@@ -55,7 +55,6 @@ h1 {
 }
 .content {
   margin-top: 12vh;
-  
 }
 .logoContainer {
   height: 100%;
@@ -160,7 +159,6 @@ h1 {
 }
 .projectBox:hover {
   transform: scale(1.075);
-
 }
 .projectPic {
   width: 20vw;
@@ -242,12 +240,252 @@ h1 {
   display: flex;
   justify-content: center;
 }
+.challengeDirections{
+  background-color: #282c34;
+  color: white;
+  border-radius: 10%;
+  width: 80vw;
+  display: flex;
+  margin-left: 8vw;
+  margin-right: 8vw;
+  padding: 2%;
+}
 }
 /* css for tablet */
 @media (min-width:600px) and (max-width:1199px ) {
-  body {
-    background-color: black;
+  .App {
+    text-align: center;
+    
+    color: white;
   }
+  body {
+    background-color: black
+  };
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  span {
+    font-weight: 900;
+  }
+  h3 {
+    color: teal;
+  }
+  h1 {
+    color: teal
+  }
+  
+  .NavContainer {
+    position: fixed;
+    top: 1%;
+    background-color: teal;
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    width: 98vw;
+    justify-content: space-around;
+  }
+  .content {
+    margin-top: 12vh;
+    
+  }
+  .logoContainer {
+    height: 100%;
+    margin: 4px;
+  }
+  .logo {
+    height: 100%;
+  }
+ 
+.dropbtn {
+  background-color: black;
+  color: teal;
+  padding: 10px;
+ 
+}
+.dropbtn:hover {
+  background-color: white;
+  color: black;
+  padding: 10px;
+  
+}
+
+.menuDropContent {
+  display: none;
+  position: absolute;
+  background-color: teal;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  margin-right: 50px;
+}
+
+.menuDropContent a {
+  color: black;
+  padding: 12px 16px;
+  display: block;
+}
+
+.menuDropContent a:hover {
+  background-color: black;
+  color:teal
+}
+.socialDropContent {
+  display: none;
+  position: absolute;
+  background-color: teal;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  margin-right: 50px;
+}
+
+.socialDropContent a {
+  color: black;
+  padding: 12px 16px;
+  display: block;
+}
+
+.socialDropContent a:hover {
+  background-color: black;
+  color:teal
+}
+
+.menuDropdown:hover .menuDropContent {
+  display: block;
+}
+.socialDropdown:hover .socialDropContent {
+  display: block;
+}
+
+.landing{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 100%;
+  margin-top: 12vh;
+ }
+.landingContainer{
+  background-color: rgb(1, 57, 57);
+  border-radius: 15%;
+  height: 30vh;
+  width: 35vw;
+  padding: 2%;
+  margin: 3%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+.landingImg {
+  max-width: 200px;
+  max-height: 200px;
+}
+.footer {
+  height: 10vh;
+  background-color: teal;
+  color: black;
+  height: 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.socialMedia {
+  display: flex;
+  justify-content: space-around;
+}
+.socialMedia a {
+  color: black;
+}
+.socialMedia a:hover {
+  color: teal;
+  background-color: black;
+}
+.about {
+  background-color: rgb(1, 57, 57);
+  margin: 10%;
+  border-radius: 10%;
+  padding: 5%;
+}
+.techPic{
+  height: 10vh;
+}
+.resumeBox {
+  background-color: rgb(1, 57, 57);
+  margin: 10%;
+  border-radius: 5%;
+  padding: 2.5%;
+}
+.currentProjectBox {
+  width: 85vw;
+  background-color: rgb(1, 57, 57);
+  border-radius: 10%;
+  transition: transform 0.5s ease;
+}
+.currentProjectContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.projects {
+  background-color: #282c34;
+  border-radius: 1%;
+}
+.projectsBox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; 
+  padding: 1%;
+}
+.projectBox {
+  width: 80vw;
+  background-color: black;
+  border-radius: 10%;
+  margin: 3%;
+}
+.projectPic {
+  width: 70vw;
+  margin: 1%;
+}
+.featureContainer {
+  background-color: rgb(1, 57, 57);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 1%;
+  margin: 2vw;
+}
+.descriptionBox {
+  background-color: #282c34;
+  width: 80vw;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1%;
+  padding: 5%;
+  border-radius: 10%;
+  justify-content: center;
+}
+.descriptionBox a {
+  color: teal;
+}
+.projectPic {
+  width: 35vw;
+  margin: 1%;
+}
+.featureProject1Container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 }
 
 /* css for phone */
@@ -408,5 +646,81 @@ h1 {
 .socialMedia a:hover {
   color: teal;
   background-color: black;
+}
+.about {
+  background-color: rgb(1, 57, 57);
+  margin: 10%;
+  border-radius: 10%;
+  padding: 5%;
+}
+.techPic{
+  height: 10vh;
+}
+.resumeBox {
+  background-color: rgb(1, 57, 57);
+  margin: 10%;
+  border-radius: 5%;
+  padding: 2.5%;
+}
+.currentProjectBox {
+  width: 85vw;
+  background-color: rgb(1, 57, 57);
+  border-radius: 10%;
+  transition: transform 0.5s ease;
+}
+.currentProjectContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.projects {
+  background-color: #282c34;
+  border-radius: 1%;
+}
+.projectsBox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; 
+  padding: 1%;
+}
+.projectBox {
+  width: 80vw;
+  background-color: black;
+  border-radius: 10%;
+  margin: 3%;
+}
+.projectPic {
+  width: 70vw;
+  margin: 1%;
+}
+.featureContainer {
+  background-color: rgb(1, 57, 57);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 1%;
+  margin: 2vw;
+}
+.descriptionBox {
+  background-color: #282c34;
+  width: 80vw;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 1%;
+  padding: 5%;
+  border-radius: 10%;
+  justify-content: center;
+}
+.descriptionBox a {
+  color: teal;
+}
+.projectPic {
+  width: 35vw;
+  margin: 1%;
+}
+.featureProject1Container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 }
