@@ -15,9 +15,9 @@ function Navbar() {
       </div>
       
         
-          <div className='dropdown'>
+          <div className='menuDropdown'>
             <button className='dropbtn'>MENU</button>
-            <div className='dropContent'>
+            <div className='menuDropContent'>
               <Link to="/AboutMe" className='tab'>About Me</Link>
               <Link to="/Resume" className='tab'>Resume</Link>
               <Link to="/Projects" className='tab'>Projects</Link>
@@ -26,9 +26,9 @@ function Navbar() {
           </div>
         
         
-          <div className='dropdown'>
+          <div className='socialDropdown'>
             <button className='dropbtn'>Lets Connect!</button>
-            <div className='dropContent'>
+            <div className='socialDropContent'>
                 <a href='mailto:blake.james.dev@gmail.com' className='tab' target='_blank' rel='noreferrer'>Email</a>
                 <a href='https://www.linkedin.com/in/blakejames89' className='tab' target="_blank" rel='noreferrer'>Linkedin</a>
                 <a href='https://github.com/blakejamesdev'className='tab' target="_blank" rel='noreferrer'>Github</a>

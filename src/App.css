@@ -64,19 +64,30 @@ h1 {
 .logo {
   height: 100%;
 }
-
-.tabsContainer {
+.dropbtn {
+  display: none;
+}
+.menuDropdown {
  width: 70%;
+}
+.menuDropContent{
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  justify-content: space-between;
 }
 .tab {
   color: black;
 }
+.tab:hover {
+  color: teal;
+  background-color: black;
+}
 .contactContainer {
   color: black;
   margin: 4px;
+}
+.socialDropContent {
+  display: flex;
+  flex-direction: column;
 }
 .socialMedia {
   display: flex;
@@ -294,12 +305,7 @@ h1 {
   .logo {
     height: 100%;
   }
- .NavItems {
-  display: flex;
-    
- }
-
-
+ 
 .dropbtn {
   background-color: black;
   color: teal;
@@ -313,8 +319,8 @@ h1 {
   
 }
 
-.dropContent {
-  display: block;
+.menuDropContent {
+  display: none;
   position: absolute;
   background-color: teal;
   min-width: 160px;
@@ -322,18 +328,40 @@ h1 {
   margin-right: 50px;
 }
 
-.dropContent a {
+.menuDropContent a {
   color: black;
   padding: 12px 16px;
   display: block;
 }
 
-.dropContent a:hover {
+.menuDropContent a:hover {
+  background-color: black;
+  color:teal
+}
+.socialDropContent {
+  display: none;
+  position: absolute;
+  background-color: teal;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  margin-right: 50px;
+}
+
+.socialDropContent a {
+  color: black;
+  padding: 12px 16px;
+  display: block;
+}
+
+.socialDropContent a:hover {
   background-color: black;
   color:teal
 }
 
-.dropdown:hover .dropContent {
+.menuDropdown:hover .menuDropContent {
+  display: block;
+}
+.socialDropdown:hover .socialDropContent {
   display: block;
 }
 
@@ -348,12 +376,37 @@ h1 {
 .landingContainer{
   background-color: rgb(1, 57, 57);
   border-radius: 15%;
-  height: 40vh;
-  width: 70vw;
+  height: 30vh;
+  width: 80vw;
   padding: 2%;
-  margin: 1%;
+  margin: 3%;
   display: flex;
   justify-content: space-around;
   flex-direction: column;
+  align-items: center;
+}
+.landingImg {
+  max-width: 200px;
+  max-height: 200px;
+}
+.footer {
+  height: 10vh;
+  background-color: teal;
+  color: black;
+  height: 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.socialMedia {
+  display: flex;
+  justify-content: space-around;
+}
+.socialMedia a {
+  color: black;
+}
+.socialMedia a:hover {
+  color: teal;
+  background-color: black;
 }
 }
