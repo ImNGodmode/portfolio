@@ -13,7 +13,7 @@ function Projects() {
         <div className='currentProjectBox'>
           <h4>Schedule optimizer</h4>
           {/* <img src={process.env.PUBLIC_URL + '/ZombieAimTrainer.png'} alt="" className='projectPic'/> */}
-          <p>This project is in planning phase. The goal is to create an application to help with time management. Each user once logged in will be able to access thier calendar and add events. Events will be able to have estimated completion time, start time, importance, and deadline. As events are added to the users calendar if the event has a start time (like an appointment) it will be added to the calendar. If the event doesn't have a designated start time it will be plugged into the calendar depending on importance, deadline, and estimated completion time. Events will be able to be marked at complete, updated, or deleted.    </p>
+          <p>This project is in planning phase. The goal is to create an application to help with time management. Each user once logged in will be able to access their calendar and add events. Events will be able to have estimated completion time, start time, importance, and deadline. As events are added to the users calendar if the event has a start time (like an appointment) it will be added to the calendar. If the event doesn't have a designated start time it will be plugged into the calendar depending on importance, deadline, and estimated completion time. Events will be able to be marked at complete, updated, or deleted.    </p>
         </div>
       </div>
       <div className='featureContainer'>
@@ -32,7 +32,7 @@ function Projects() {
           <div className='projectBox'>
             <h5>MOB Gaming</h5>
             <img src={process.env.PUBLIC_URL + '/landing.png'} alt='' className='projectPic'/>
-            <p> The highlights for this project are the use of user authentication, bootstrap, and a videogame api to memic an ecommerce page selling video games. It is a full stack program built with the MERN stack. 
+            <p> The highlights for this project are the use of user authentication, bootstrap, and a videogame API to mimic an e-commerce page selling video games. It is a full stack program built with the MERN stack. 
             </p>
             <div className='buttonBox'>
             <Link to="/Featureproject2" >More Info</Link>
@@ -42,7 +42,7 @@ function Projects() {
           <div className='projectBox'>
             <h5>Fitness Coaching App</h5>
             <img src={process.env.PUBLIC_URL + '/info.png'} alt='' className='projectPic'/>
-            <p>This is a full-stack program built with the MERN stack. The focus for this project was creation and utalization of CRUD (Create, Read, Update, and Delete) routes in a full stack application. It is a platform for personal training that allows a trainer to update macros and workouts for all of thier trainees. Each trainee can also log in to see thier workout and macro plan and update thier own plan.
+            <p>This is a full-stack program built with the MERN stack. The focus for this project was creation and utilization of CRUD (Create, Read, Update, and Delete) routes in a full stack application. It is a platform for personal training that allows a trainer to update macros and workouts for all of their trainees. Each trainee can also log in to see their workout and macro plan and update their own plan.
             </p>
             <div className='buttonBox'>
             <Link to="/Featureproject3" >More Info</Link>
